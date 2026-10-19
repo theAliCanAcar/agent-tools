@@ -1,0 +1,23 @@
+{
+  "name": "agent-tools",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Standard tool interface, tool() helper, reusable tool wrappers, structured errors, retry/timeout/fallback.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theAliCanAcar/agent-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/theAliCanAcar/agent-tools/issues"
+  },
+  "homepage": "https://github.com/theAliCanAcar/agent-tools#readme"
+}
